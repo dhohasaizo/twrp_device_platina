@@ -85,6 +85,7 @@ TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 TW_INCLUDE_CRYPTO := true
+OF_USE_LEGACY_CRYPTO := 1
 #TW_INCLUDE_FBE := true
 
 # Recovery
@@ -124,5 +125,8 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
 
 # add doha
-TW_DEVICE_VERSION := Platina_Doha
+#TW_DEVICE_VERSION := Platina_Doha
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+
+#pb
+PB_OFFICIAL := true
